@@ -1,4 +1,9 @@
 package com.example.roles_empleado.Entity;
 
-public class RolesEntity {
+public enum RolesEntity {
+    Medico,
+    Personal_Administrativo,
+    Enfermero,
+    Cajero,
+    Laboratorista
 }
